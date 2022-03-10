@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+.cover h1{
+    padding: 2px;
+    margin: 5px;
+  }
+  .cover p{
+    padding: 2px;
+  }
