@@ -2,10 +2,43 @@
 html{
   scroll-behavior: smooth;
 }
+.cover{
+    background-image: url(../images/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    height: 88vh;
+    vertical-align: middle;
+    padding: 17%;
+}
 .cover h1{
+    
     padding: 2px;
     margin: 5px;
   }
   .cover p{
+   
+    
     padding: 2px;
+  }
+  .siteLogo{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 70px;
+    height: 70px;
+    
+    
+
+  }
+  #siteLogo{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 70px;
+    height: 70px;
+    
+    
+
   }
