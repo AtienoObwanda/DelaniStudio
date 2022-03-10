@@ -24,38 +24,47 @@ html{
     padding: 2px;
     margin: 5px;
   }
+
   .cover p{
-   
-    
     padding: 2px;
   }
+
   .siteLogo{
     margin-top: 12px;
     margin-bottom: 24px;
     width: 70px;
     height: 70px;
-    
-    
-
   }
+
   #siteLogo{
     margin-top: 12px;
     margin-bottom: 24px;
     width: 70px;
     height: 70px;
   }
+
   .container{
     font-family: cursive;
   }
+
   .services{
     background-image: url(../images/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 55vh;
+    height: 50vh;
     color: white;
     font-family: cursive;
   }
+
+  .portfolio{
+    font-family: cursive;
+  }
+
+  .whatWeDo{
+    font-family: cursive;
+  }
+
   .contact{
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
