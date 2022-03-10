@@ -43,7 +43,25 @@ html{
     margin-bottom: 24px;
     width: 70px;
     height: 70px;
-    
-    
-
+  }
+  .container{
+    font-family: cursive;
+  }
+  .services{
+    background-image: url(../images/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    color: white;
+    font-family: cursive;
+  }
+  .contact{
+    background-image: url(../images/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    color: white;
+    font-family: cursive;
   }
