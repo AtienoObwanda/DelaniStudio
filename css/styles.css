@@ -10,22 +10,25 @@ html{
     text-align: center;
     color: white;
     font-family: cursive;
-    height: 88vh;
+    height: 100vh;
     vertical-align: middle;
-    padding: 17%;
+    padding: 18%;
 }
+
 .cover h1{
-    
+    font-size: 60px;
     padding: 2px;
-    margin: 5px;
+    margin-top: 0.4em;
   }
   .cover h3{
     
+    font-size: 53px;
     padding: 2px;
-    margin: 5px;
+    margin-top: 0.4em;
   }
 
   .cover p{
+    font-size: 17px;
     padding: 2px;
   }
 
@@ -36,14 +39,12 @@ html{
     height: 70px;
   }
 
-  #siteLogo{
-    margin-top: 12px;
-    margin-bottom: 24px;
-    width: 70px;
-    height: 70px;
+
+  .mouse{
+    margin-top: 20%;
   }
 
-  .container{
+  .abt-us{
     font-family: cursive;
   }
 
@@ -74,3 +75,20 @@ html{
     color: white;
     font-family: cursive;
   }
+
+
+
+
+/*
+  @media (min-width: 768px){
+    .container{
+      max-width:100%;
+    }  
+  }
+  
+  @media (min-width: 992px){
+    .container{
+      max-width:100%;
+    }
+  }
+  */
