@@ -46,7 +46,7 @@ html{
   .abt-us{
     font-family: cursive;
   }
-
+/*SERVICES*/
   .services{
     background-image: url(../images/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
@@ -56,15 +56,37 @@ html{
     color: white;
     font-family: cursive;
   }
-
-  .portfolio{
-    font-family: cursive;
-  }
-
+/*WHAT WE DO*/
   .whatWeDo{
     font-family: cursive;
+    text-align: center;
+    padding-top: 40px;
   }
-
+  .whatWeDo h1{
+    margin-bottom: 1em;
+  }
+  /*PORTFOLIO*/
+  .portfolio{
+    text-align: center!important;
+    font-family: cursive;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:18%;
+    margin-right: 16%;
+  }
+  .portfolio h1{
+    margin-bottom: 1em; 
+   margin-left: 42%; 
+    
+  }
+  .col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  /*CONTACT*/
   .contact{
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
