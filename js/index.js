@@ -91,12 +91,23 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('#p7').bind('mouseover', function() {
+  $('#p6').bind('mouseover', function() {
       $(this).fadeTo('fast', '.4');
       $('.overlayText6').show();
   }).bind('mouseout', function() {
       $(this).fadeTo('fast', '1');
       $('.overlayText6').hide();
+      
+  });
+});
+
+$(document).ready(function() {
+  $('#p7').bind('mouseover', function() {
+      $(this).fadeTo('fast', '.4');
+      $('.overlayText7').show();
+  }).bind('mouseout', function() {
+      $(this).fadeTo('fast', '1');
+      $('.overlayText7').hide();
       
   });
 });
