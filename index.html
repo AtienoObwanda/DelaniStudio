@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    
     <title>Delani Studio | Atieno Obwanda</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
 
 </head>
 <body>
@@ -56,7 +59,7 @@
             </div>
             <!--DEVELOPMENT-->
             <div class="col-md-4">
-                <div id="development">
+                <div id="dev">
                     <h3>DEVELOPMENT</h3>
                     <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
                     <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
@@ -127,6 +130,39 @@
     <!--CONTACT-->
     <div class="contact">
         <h1 class="text-center">CONTACT US</h1>
+        <div class="col-md-12">
+            <form id="form34A" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
+                <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
+                <input type="hidden" name="id" value="dbf7e27685">
+                <div class="form-group form-inline">
+                    <div class="row">
+                    <!--start-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="email" placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" class="form-control">
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <!--end-->
+                    <!--
+                    <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+                    <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+            
+                    -->
+                    </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+            </form>
+    </div>
 
     </div>
     <!--SOCIAL-->
@@ -149,7 +185,9 @@
     </div>
     
 
-
+    <!--
+        <script src="js/jquery-3.6.0.js"></script>
+    -->
     
 </body>
 </html>
