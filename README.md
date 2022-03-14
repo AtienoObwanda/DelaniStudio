@@ -1,18 +1,22 @@
 # Delani Studio
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](./screenshots/description.png?raw=true "Optional Title")
 # Author
 Atieno Obwanda
 # Description
 DelaniStudio is a landing page for a fictional studio.</br>
 The webpage has different sections, i.e</br> 
 Main section:</br>
+![Alt text](./screenshots/main.png?raw=true "Optional Title")
 About Us:</br> 
-Contact Us:</br>
-Services:</br>
+![Alt text](./screenshots/abt.png?raw=true "Optional Title")
 WHAT WE DO: </br>
+![Alt text](./screenshots/what.png?raw=true "Optional Title")
 WHAT WE DO-toggled: </br>
+![Alt text](./screenshots/whatwe.png?raw=true "Optional Title")
 Portfolio:</br>
-Social Media:</br>
+![Alt text](./screenshots/portfolio.png?raw=true "Optional Title")
+Social Media & Footer:</br>
+![Alt text](./screenshots/social.png?raw=true "Optional Title")
 # Installation/Set-up instructions
 From your terminal, on your project folder, run git init then run git clone[Repositoryurl]</br>
 Cd DelaniStudio</br>
