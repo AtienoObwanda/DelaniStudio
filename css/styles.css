@@ -9,7 +9,7 @@ html{
     text-align: center;
     color: white;
     font-family: cursive;
-    height: 88vh;
+    height: 95vh;
     vertical-align: middle;
     padding: 18%;
 }
@@ -32,7 +32,7 @@ html{
   }
 
   .siteLogo{
-    margin-top: 18px;
+    margin-top: 20px;
     width: 70px;
     height: 70px;
   }
