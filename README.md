@@ -1,14 +1,17 @@
 # Delani Studio
-![Alt text](./screenshots/description.png?raw=true "Optional Title")
+![Alt text](./screenshots/main.png?raw=true "Optional Title"
 # Author
 Atieno Obwanda
 # Description
 DelaniStudio is a landing page for a fictional studio.</br>
 The webpage has different sections, i.e</br> 
+
 Main section:</br>
 ![Alt text](./screenshots/main.png?raw=true "Optional Title")
 About Us:</br> 
 ![Alt text](./screenshots/abt.png?raw=true "Optional Title")
+Services:<br/>
+![Alt text](./screenshots/description.png?raw=true "Optional Title")
 WHAT WE DO: </br>
 ![Alt text](./screenshots/what.png?raw=true "Optional Title")
 WHAT WE DO-toggled: </br>
