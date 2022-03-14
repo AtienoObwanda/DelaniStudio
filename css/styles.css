@@ -40,9 +40,17 @@ html{
 
   .mouse{
     margin-top: 13%;
+    height:25%;
+    width: auto;
   }
-
+  .mouse :hover{
+    height: 100%;
+    width: auto;
+  }
   .abt-us{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px;
     font-family: cursive;
   }
 /*SERVICES*/
@@ -54,8 +62,15 @@ html{
     height: 50vh;
     color: white;
     font-family: cursive;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
+  }
+  .sOverlay h1{
+    vertical-align: middle;
+  }
+  .sOverlay p{
+    vertical-align: middle;
+
   }
   .sOverlay{
     background-color: rgba(0,0,0,0.4);
@@ -103,12 +118,12 @@ html{
     position:absolute;
 */
   position: inherit;
-  top: 20px;
-  left: 35px;
-  font-weight: bold;
+  top: 15px;
+  left: 15px;
+  font-weight: bolder;
   text-align: center;
-  font-size: 30px;
-  margin-top: -6em;
+  font-size: 25px;
+  margin-top: -7.5em;
   padding-top:2% ;
   font-family: cursive;
   color: black;
@@ -144,24 +159,6 @@ html{
   .form-control::-webkit-input-placeholder { 
     color: white; 
   }
-  .namemail{
-    display: flex;
-  }
-  .nam{
-    width: 30%;
-  margin-left: 18%;
-  margin-right: 30px;
-    /*width: 100%;
-    margin-left: 58%;
-    margin-right: 20em !important;
-    */
-    
-  }
-  .eml{
-    width: 30%;
-    
-   
-  }
   #comment{
     width: 100%;
   }
@@ -179,16 +176,16 @@ html{
   }
   #product{
     display: none;
+    }
+  .social{
+    text-align: center;
+    padding-top: 30px;
   }
-.social{
-  text-align: center;
-  padding-top: 30px;
-}
-.social img{
-  height: 35px;
-}
-.footer{
-  margin-top: 14px;}
+  .social img{
+    height: 35px;
+  }
+  .footer{
+    margin-top: 14px;}
 /*
   @media (min-width: 768px){
     .container{
