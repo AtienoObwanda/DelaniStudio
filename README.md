@@ -1,5 +1,5 @@
 # Delani Studio
-![Alt text](./screenshots/main.png?raw=true "Optional Title"
+![Alt text](./screenshots/main.png?raw=true "Optional Title")
 # Author
 Atieno Obwanda
 # Description
