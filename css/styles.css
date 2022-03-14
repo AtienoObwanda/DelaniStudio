@@ -203,25 +203,8 @@ html{
   .footer{
     margin-top: 14px;}
 
-    @media only screen and (min-width: 825px){
-      .overlayText1,.overlayText2,.overlayText3,.overlayText4,
-      .overlayText5,.overlayText6,.overlayText7,.overlayText8{
-        width: 100%;
-        height: 100%;
-        top: 20px;
-        left: 20px;
-        padding-top:30%; 
-      }
-      .col-md-3 img{
-        width: 400px;
-        margin: 20px;
-      }
-      #portfolio{
-        margin-left:10%;
-        margin-right: 10%; 
-      }
-    }
-    @media only screen and (min-width: 375px){
+   
+    @media only screen and (max-width: 375px){
       .overlayText1,.overlayText2,.overlayText3,.overlayText4,
       .overlayText5,.overlayText6,.overlayText7,.overlayText8{
         width: 100%;
@@ -232,7 +215,7 @@ html{
         font-size: 26px;
       }
       .col-md-3 img{
-        width: 400px;
+        width: 100;
         margin: 20px;
       }
       #portfolio{
