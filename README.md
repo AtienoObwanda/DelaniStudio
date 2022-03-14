@@ -1,7 +1,7 @@
 # Delani Studio
 ![Alt text](./screenshots/main.png?raw=true "Optional Title")
 # Author
-Atieno Obwanda
+ **Atieno Obwanda**
 # Description
 DelaniStudio is a landing page for a fictional studio.</br>
 The webpage has different sections, i.e</br> 
