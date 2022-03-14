@@ -142,7 +142,7 @@ html{
     color: white;
     font-family: cursive;
   }
-  .contact h2{
+  .contact h1{
     text-align: center;
     margin-top: 30px;
     padding-top: 40px;
@@ -160,9 +160,25 @@ html{
     color: white; 
   }
   #comment{
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #nam{
+    width: 50%;
+    margin-left: 41%;
+    margin-right: 25px;
+    margin-bottom: 5px;
+
+  }
+  #em{
+    width: 50%;
+    margin-left: 9%;
+    margin-bottom: 5px;
   }
   button{
+    background: transparent!important;
     margin-left: 20%;
     padding-bottom: 30px;
     margin-bottom: 20px;

@@ -9,6 +9,7 @@ $(document).ready(function(){
     $(".designImg").slideDown('1500');
   });
 });
+
 //TOGGLE DEVELOPMENT
 $(document).ready(function(){
   $(".devImg").click(function(){
@@ -20,7 +21,6 @@ $(document).ready(function(){
     $(".devImg").slideDown('1500');
   });
 });
-//hide("slide", { direction: "right" }, 1000);
 
 //TOGGLE PRODUCT MGT
 $(document).ready(function(){
@@ -143,5 +143,15 @@ $(document).ready(function () {
 });
 */
 
+//FORM ACTION
+$(document).ready(function(){
+  $("form").submit(function(event){
+    event.preventDefault();
+    var name = $("input#nam").val();
+    alert("Hello " + name + ", we have received your message! Thank you for reaching out to us.");
+    //refresh page
+    $('#contactform').trigger("reset");
+  });
+});
 
 
